@@ -3,20 +3,20 @@ import com.greatlearning.orgdepartment.model.*;
 
 public class Technical extends SuperDepartment{
 	
-	public void departmentName() {
-		System.out.println(" Welcome to Tech Department ");
+	public String departmentName() {
+		return(" Welcome to Tech Department ");
 		
 	}
-	public void getTodaysWork() {
-		System.out.println(" Complete coding of module 1 ");
+	public String getTodaysWork() {
+		return(" Complete coding of module 1 ");
 		
 	}
-	public void getWorkDeadline() {
-		System.out.println(" Complete by EOD ");
+	public String getWorkDeadline() {
+		return(" Complete by EOD ");
 		
 	}
-	public void getTechStackInformation() {
-		System.out.println(" Core Java ");
+	public String getTechStackInformation() {
+		return(" Core Java ");
 		
 	}
 }

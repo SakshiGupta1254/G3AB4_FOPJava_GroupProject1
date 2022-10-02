@@ -3,16 +3,23 @@ import com.greatlearning.orgdepartment.model.*;
 
 public class Admin extends SuperDepartment{
 	
-	public void departmentName() {
-		System.out.println(" Welcome to Admin Department");
+	public String departmentName() {
+		return(" Welcome to Admin Department");
 		
 	}
-	public void getTodaysWork() {
-		System.out.println(" Complete your documents Submission ");
+	public String getTodaysWork() {
+		return(" Complete your documents Submission ");
 		
 	}
-	public void getWorkDeadline() {
-		System.out.println( " Complete by EOD ");
+	public String getWorkDeadline() {
+		return( " Complete by EOD ");
+		
+	}
+	public void getFullInfo() {
+		System.out.println(departmentName());
+		System.out.println(getTodaysWork());
+		System.out.println(getWorkDeadline());
+		System.out.println(isTodayAHoliday());
 		
 	}
 	
